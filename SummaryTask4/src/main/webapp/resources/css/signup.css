@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+#view {
+	width: 500px ;
+	height: 555px;
+    padding: 10px;
+    margin: 5px auto;
+    background: ghostwhite;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid aliceblue;
+    box-shadow: 0 3px 20px rgba(0,0,0,.25);
+}
+
+.error{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+#header {
+	text-align: center;
+}

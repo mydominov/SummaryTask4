@@ -1,0 +1,24 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>User rights</short-name>
+	<tag>
+    	<name>form-post</name>
+    	<tag-class>ua.nure.dominov.SummaryTask4.customtag.CustomTag</tag-class>
+    	<body-content>empty</body-content>
+    	<attribute>
+       		<name>text</name>
+      		<rtexprvalue>true</rtexprvalue>
+       		<required>true</required>
+    	</attribute>
+    	<attribute>
+       		<name>link</name>
+      		<rtexprvalue>true</rtexprvalue>
+       		<required>true</required>
+    	</attribute>
+  	</tag>
+	<tag-file>
+		<name>SwapLinkByRole</name>
+		<path>/WEB-INF/tags/custom.tag</path>
+	</tag-file>
+</taglib>

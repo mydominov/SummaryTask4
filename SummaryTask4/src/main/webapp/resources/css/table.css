@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+div.table {
+    display:table;
+}
+p.capture {
+	display:capture;
+}
+form.tr, div.tr {
+	text-align: center;
+    display:table-row;
+}
+span.td {
+	text-align: center;
+    display:table-cell;
+}

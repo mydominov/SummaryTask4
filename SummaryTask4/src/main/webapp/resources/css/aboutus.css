@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+#view {
+  width: 1100px ;
+  height: 550px;
+  font-family: 'Roboto';
+  font-size: 130%;
+}
+
+img {
+	float: left;
+	width: 30%;
+}
